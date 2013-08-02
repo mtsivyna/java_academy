@@ -25,7 +25,6 @@ public class Sum {
             }
 		}			
         if (args.length<=2) {
-		System.out.println("WTF");
         } else {
             String[] arr3 = args[2].split(" ");
             String[] strArray3 = new String[]{args[2]};
