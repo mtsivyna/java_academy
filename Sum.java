@@ -6,7 +6,6 @@ public class Sum {
 				System.out.println("You've entered: "+j+" element(s)");
 			} else {
 				String[] arr1 = args[j].split(" ");
-				String[] strArray1 = new String[]{args[j]};
 				for (int i = 0; i < arr1.length; i++) {
 					int a = Integer.parseInt(arr1[i]);
 					sum += a;
