@@ -15,13 +15,13 @@ public class Sum {
 	int j;		// Number of values
         
 	    for (j = 0; j < args.length; j++) {
-		String[] arr1 = args[j].split(" ");
+		String[] element = args[j].split(" ");
 		
-		    for (int i = 0; i < arr1.length; i++) {
-			int a = Integer.parseInt(arr1[i]);
+		    for (int i = 0; i < element.length; i++) {
+			int a = Integer.parseInt(element[i]);
 			sum += a;
 		    }
 	    }
-	System.out.println("You've entered: "+j+" elemnt(s)"+"\nSum = "+sum);
+	System.out.println("You've entered: " + j + " elemnt(s)" + "\nSum = " + sum);
     }
 }
