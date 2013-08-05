@@ -12,7 +12,7 @@ public class Sum {
      
     public static void main(String [] args) {
         int sum = 0;	// Result sum value
-        int j;		// Number of values
+	int j;		// Number of values
         
 	    for (j = 0; j < args.length; j++) {
 		String[] arr1 = args[j].split(" ");
@@ -22,6 +22,6 @@ public class Sum {
 			sum += a;
 		    }
 	    }
-	        System.out.println("You've entered: "+j+" elemnt(s)"+"\nSum = "+sum);
+	System.out.println("You've entered: "+j+" elemnt(s)"+"\nSum = "+sum);
     }
 }
