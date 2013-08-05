@@ -1,15 +1,18 @@
 /**
 * Sum.java
-* This class outputs the sum of input values
+* This class describe summation process of input values
 * @version    1.3 08/05/13
 * @author    Maksym Tsivyna 
 */
 
 public class Sum {
-	
+    /**
+      Current method is used for parsing input string
+      identification values, summation operation and display result */
+     
     public static void main(String [] args) {
-        int sum = 0;
-        int j;
+        int sum = 0;	// Result sum value
+        int j;		// Number of values
         
 	    for (j = 0; j < args.length; j++) {
 		String[] arr1 = args[j].split(" ");
