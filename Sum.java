@@ -10,17 +10,17 @@ public class Sum {
       Current method is used for parsing input string
       identification values, summation operation and display result */
      
-	public static void main(String [] args) {
-		int sum = 0;	// Result sum value
+    public static void main(String [] args) {
+        int sum = 0;	// Result sum value
         
-		for (String j : args) {
-			String[] element = j.split(" ");
+        for (String arg : args) {
+	    String[] element = arg.split(" ");
 		
-		    	for (String i : element) {
-				int a = Integer.parseInt(i);
-				sum += a;
-		    	}
-	    	}
-	System.out.println("Sum = " + sum);
-	}
+	    for (String value : element) {
+	        int a = Integer.parseInt(value);
+		sum += a;
+	    }
+        }
+    System.out.println("Sum = " + sum);
+    }
 }
