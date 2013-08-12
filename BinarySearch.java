@@ -15,8 +15,8 @@ public class BinarySearch{
         int[] array = new int[args.length-1];    // array length = args length - 1 
 	    int numberOfElements = array.length;    // number of elements in array
 
-        for (int elementId = 1; elementId <= numberOfElements; elementId++){
-            array[elementId - 1] = Integer.parseInt(args[elementId]);
+        for (int elementsId = 1; elementsId <= numberOfElements; elementsId++){
+            array[elementsId - 1] = Integer.parseInt(args[elementsId]);
         }
         System.out.println("Inserted array :");
 
