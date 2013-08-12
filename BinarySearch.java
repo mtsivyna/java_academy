@@ -15,13 +15,13 @@ public class BinarySearch{
         int[] array = new int[args.length-1];    // array length = args length - 1 
 	    int numberOfElements = array.length;    // number of elements in array
 
-        for (int elementsId = 1; elementsId <= numberOfElements; elementsId++){
-            array[elementsId - 1] = Integer.parseInt(args[elementsId]);
+        for (int elementId = 1; elementId <= numberOfElements; elementId++){
+            array[elementId - 1] = Integer.parseInt(args[elementId]);
         }
         System.out.println("Inserted array :");
 
-            for (int elements : array){
-                System.out.println(elements + " ");
+            for (int element : array){
+                System.out.println(element + " ");
             }
 
         int searchVal = Integer.parseInt(args[0]);    // value that should be found in array
