@@ -47,7 +47,7 @@ public class BinarySearch{
             if (searchVal < array[mid])
                 lastIndex = --mid;
 
-            else if(searchVal > array[mid])
+            else if (searchVal > array[mid])
                 firstIndex = ++mid;
 
             else
@@ -70,10 +70,10 @@ public class BinarySearch{
         while (firstIndex <= lastIndex){
             int mid = firstIndex + (lastIndex - firstIndex) / 2;    // Index of mid value
 
-            if(searchVal > array[mid])
+            if (searchVal > array[mid])
                 return recursiveBinarySearch(array, searchVal, ++mid, lastIndex);
 
-            else if(searchVal < array[mid])
+            else if (searchVal < array[mid])
                 return recursiveBinarySearch(array, searchVal, firstIndex, --mid);
 
             else
