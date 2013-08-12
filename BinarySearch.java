@@ -20,8 +20,8 @@ public class BinarySearch{
         }
         System.out.println("Inserted array :");
 
-            for (int element : array){
-                System.out.println(element + " ");
+            for (int elements : array){
+                System.out.println(elements + " ");
             }
 
         int searchVal = Integer.parseInt(args[0]);    // value that should be found in array
