@@ -2,7 +2,7 @@
  * BinarySearch.java
  * This class describe Iterative/Recursive binary search process in array
  * @version    1.1 08/13/13
- * @author    Maksym Tsivyna
+ * @author     Maksym Tsivyna
  */
 public class BinarySearch {
 
