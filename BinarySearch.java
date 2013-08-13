@@ -22,9 +22,9 @@ public class BinarySearch {
         }
         System.out.println("Inserted array :");
 
-            for (int element : array) {
-                System.out.println(element + " ");
-            }
+        for (int element : array) {
+            System.out.println(element + " ");
+        }
 
         int searchVal = Integer.parseInt(args[0]);    // value that finding in array
 
