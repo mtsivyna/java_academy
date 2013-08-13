@@ -4,14 +4,13 @@
  * @version    1.1 08/13/13
  * @author    Maksym Tsivyna
  */
-
 public class BinarySearch {
+    
     /**
     * Current method is used for parsing input string,
     * identificate search value and array, print search result 
     * @param args command line argument 
     */
-	
     public static void main(String[] args) {
 		
         int[] array = new int[args.length-1];        // defining array
@@ -41,7 +40,6 @@ public class BinarySearch {
     * @param searchVal 
     * @return
     */
-	
     public static int iterativeBinarySearch (int[] array, int searchVal) {
 
         int firstIndex = 0;    		     // Index of first element
@@ -72,7 +70,6 @@ public class BinarySearch {
      * @param searchVal 
      * @return
      */
-     
     public static int recursiveBinarySearch(int[] array, int searchVal) {
 
         return recursiveBinarySearch (array, searchVal, 0, array.length - 1);
@@ -85,7 +82,6 @@ public class BinarySearch {
      * @param lastIndex - index of last element in array
      * @return
      */
-     
     public static int recursiveBinarySearch (int[] array, int searchVal, int firstIndex, int lastIndex) {
         
         // finding value in array that equals searchVal
