@@ -8,7 +8,7 @@ public class BinarySearch {
 
     /**
      * Current method is used for parsing input string,
-     * identificate search value and array, print search result
+     * identifying search value and array, print search result
      * @param args command line argument
      */
     public static void main(String[] args) {
