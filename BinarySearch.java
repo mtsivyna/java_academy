@@ -29,9 +29,9 @@ public class BinarySearch {
         int searchVal = Integer.parseInt(args[0]);    // value that finding in array
 
         System.out.println("Recursive method: Element: " + searchVal + " is located on " +
-                recursiveBinarySearch(array, searchVal) + " position");
+            recursiveBinarySearch(array, searchVal) + " position");
         System.out.println("Iterative number: Element: " + searchVal + " is located on " +
-                iterativeBinarySearch(array, searchVal) + " position");
+            iterativeBinarySearch(array, searchVal) + " position");
     }
 
     /**
