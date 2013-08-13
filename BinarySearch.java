@@ -13,8 +13,8 @@ public class BinarySearch {
      */
     public static void main(String[] args) {
 
-        int[] array = new int[args.length-1];        // defining array
-            int numberOfElements = args.length-1;    // number of elements in array
+        int[] array = new int[args.length-1];    // defining array
+        int numberOfElements = args.length-1;    // number of elements in array
 
         // filling an array by elements of the entered args
         for (int elementId = 1; elementId <= numberOfElements; elementId++) {
